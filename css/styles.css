@@ -813,9 +813,17 @@ img {
 .input-checkbox:checked + .custom-check {
   border-color: transparent;
 }
-
+.checkbox-text {
+  display: flex;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--secondory-text-color);
+}
 .licence-link {
-  text-decoration-color: var(--accent-color);
+  color: var(--accent-color);
+}
+.label-checkbox > a {
+  color: var(--accent-color);
 }
 
 /* button submit */
