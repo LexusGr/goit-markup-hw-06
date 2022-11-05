@@ -706,6 +706,9 @@ img {
 .modal-feild {
   margin-bottom: 10px;
 }
+.last {
+  margin-bottom: 0;
+}
 
 .input-label {
   display: block;
